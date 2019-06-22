@@ -1,0 +1,9 @@
+REPL sands for Read , Evaluate , Print and  loop
+it is a interactive toplevel or language shell
+it takes input , Evaluates it,  print the out put to user, loop means it is read to execute next command
+in windows we have py - python launcher which launches latest available python on your local machine
+if you want specific version then type "py -2.7"
+if you have 2.7 and 3.7 versions installed py automatically launches 3.7
+if you type python , in above case it will launch 2.7
+
+In Linux if you need specific version REPL then type python2.7 or python3.7 etc 
