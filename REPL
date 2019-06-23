@@ -7,3 +7,53 @@ if you have 2.7 and 3.7 versions installed py automatically launches 3.7
 if you type python , in above case it will launch 2.7
 
 In Linux if you need specific version REPL then type python2.7 or python3.7 etc 
+
+==================================================================
+Python files will have .py extension , we will call them with python to execute like python3.7 hello.py
+hello.py 
+print("Hello World")
+
+if you need to execute above python script hello.py by python just with the name, then you will have to tell which is interpreter using shebanng
+hello.py
+#!/usr/bin/env python3.7
+print("Hello world")
+
+just call ./hello.py it works now
+incase you want to call file just hello with no extention also works like ./hello
+if you want call hello from any where then add it to the $PATH
+cd $HOME
+mkdir bin
+mv ./hello ./bin
+export PATH=$PATH:$HOME/bin
+hello => should work now.
+==========================================
+
+we use # for single line comment
+there is no multi line comment in python
+''' this is multi line string will be allocated in memory 
+ so this is not a actual multiline string, it acts like multiline comment functionally. '''
+
+We can use triple single or double quotes to create a multi line string
+ =======================================================================
+ We can also use strings with some arthimetic operations
+ 'py' + 'thon'
+ 'win' * 3
+ + is concatnate and * is repeat the string
+ Indexing - Accessing the members of string with [] , like you want to access 5th character
+ slicing operator : , is used to slice the string different ways like even using with negative numbers
+ string format operator %
+ we can't update the strings , if you try you will get error like below
+ >>> str1='Hello'
+>>> str1
+'Hello'
+>>> str1[3]
+'l'
+>>> str1[3]='P'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object does not support item assignment
+====================================================================
+
+
+
+
