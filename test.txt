@@ -1,0 +1,4 @@
+this is a test file
+we will read it using python
+this is your first excercise
+file name is test.txt
